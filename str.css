@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+body {
+    background-color: #FFF;
+
+}
+
+.container {
+    width: 1200px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #b3b8ce;
+    margin: 10px auto;
+    border-radius: 25px;
+}
+
+.element {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+    background-color: #f8f9fb;
+    border-radius: 15px;
+    padding: 20px 0px;
+ 
+  
+}
+
+.form h2 {
+    text-align: center;
+    color: #665c7d;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+form {
+    padding: 5px 20px;
+    position: relative;
+    margin: 0px auto;
+
+}
+
+.register input {
+    border: none;
+    width: 100%;
+    background: none;
+    border-bottom: 2px solid #414d7a;
+
+}
+
+.register input:focus {
+    outline: none;
+}
+
+form label {
+    font-size: 14px;
+    font-weight: 300;
+    color: #414d7a;
+}
+.form-control {
+    margin :20px 0px;
+}
+
+.col-name {
+    display: flex;
+    justify-content: space-between;
+    gap:20px;
+}
+.col-name.form-control {
+    margin: 10px 0px;
+}
+
+button {
+    border: none;
+    background-color: #414d7a;
+    border-radius: 15px;
+    padding: 10px 30px;
+    color: #FFF;
+    font-size: 15px;
+    font-weight: 600;
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+    text-align: center;
+    margin-top: 5px;
+}
+
+.container-table {
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px auto;
+
+}
+table {
+    width: 100%;
+    background-color: #FFF;
+    border-collapse:collapse;
+}
+  caption {
+    width: 100%;
+    background-color: #40b2cd;
+    padding: 20px 5px;
+
+}
+
+caption h2 {
+    float: left;
+    font-size: 30px;
+    font-weight: 600;
+    color: #f2f2f2;
+}
+caption form input {
+    float: right;
+    width: 300px;
+    padding: 10px 5px;
+}
+caption input:focus {
+    outline: none;
+    border: none;
+    border: 1px solid #414d7a;
+    outline:#414d7a ;
+}
+caption input::placeholder {
+    font-weight: 300;
+    color: #414d7a;
+    font-size: 15px;
+}
+.search {
+    position: relative;
+}
+.fa-magnifying-glass  {
+    position: absolute;
+    right: 2%;
+    top: 70%;
+    transform: translate(2%,70%);
+    color: #665c7d;
+}
+table tr {
+    padding: 50px 0px;
+    text-align: center;
+}
+tr:nth-child(even) {
+    background-color: #f2f2f2 ;
+   
+  }
+  .fa-trash {
+    color: red;
+  }
+  tr  th , tr td {
+    padding: 10px 0px;
+    border-top:  2px solid #ddd;
+  }
